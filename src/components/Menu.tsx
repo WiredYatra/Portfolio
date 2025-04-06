@@ -1,3 +1,5 @@
+// import { Link } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 const Menu = () => {
@@ -9,13 +11,15 @@ const Menu = () => {
     ]
   return (
     <>
-    <div className='flex items-center justify-between px-20 py-6 sticky'>
+    <div className='flex items-center justify-between px-20 py-6 sticky '>
         {/* Logo */}
         <div className=''>
-            <h1 className='text-6xl font-bold'>Wired <span className='text-blue-800'>Yatra</span></h1>
+            <Link href='/'>
+            <h1 className='text-6xl font-bold'>Wired<span className='text-blue-800'>Yatra</span></h1>
+            </Link>
             </div>
         {/* Menu Items */}
-        <div className=' flex'>
+        <div className=' flex bg-transparent backdrop:blur-sm'>
             <ul className='flex space-x-4 gap-8'>
                 {menuItems.map((item, index) => (
                     <li key={index} className='text-lg font-medium hover:text-cyan-500'>
