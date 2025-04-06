@@ -5,8 +5,8 @@ const OurServices = () => {
     return (
         <>
 
-            <section className='w-full bg-[#f8f8f8] py-10'>
-                <div className='flex flex-col items-center h-screen'>
+            <section className='w-full  bg-[#f8f8f8] py-10'>
+                <div className='flex flex-col items-center '>
                     <div className='flex flex-col items-center justify-center  px-20 py-10'>
                     <h1 className='text-7xl font-bold text-blue-700'>Our Services</h1>
                     <p className='text-lg text-gray-600 mt-4'>We are a team of talented developers and designers who build custom websites for your business.</p>
